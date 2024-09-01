@@ -1,0 +1,61 @@
+body {
+    font-family: 'Sora', sans-serif;
+   
+}
+
+.card{
+    width: 1000px;
+    height: 800px;
+}
+
+
+.card-1, .card-2 {
+    margin: 0;
+    padding: 10px; 
+}
+
+
+.contatos {
+    display: flex;
+    border-bottom: 1px solid #ffffff; 
+    color: #ffffff;
+    padding: 60px 40px 60px 40px;
+    
+}
+
+.email, .endereco, .midias {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.midias img {
+    width: 30px;
+    height: auto; 
+    margin-right: 10px; 
+}
+
+
+
+.email p, .endereco p, .midias p, .midias img {
+    margin: 5px;
+}
+
+.logo-pequena {
+    text-align: center;
+}
+
+.logo-pequena img{
+    position: relative;
+    top: 9px;
+}
+
+.midias img {
+    width: 20px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+.fino {
+    font-family: 'Sora', sans-serif;
+    font-weight: 100; 
+}
+
