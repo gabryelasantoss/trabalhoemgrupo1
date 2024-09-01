@@ -1,0 +1,88 @@
+body {
+    font-family: 'Sora', sans-serif;
+   
+}
+
+.card{
+    width: 1000px;
+    height: 800px;
+}
+
+
+.card-1, .card-2 {
+    margin: 0;
+    padding: 10px; 
+}
+
+.card-1{
+    background-color: #0F315C;
+}
+
+.imagem-logo img {
+    width: 150px; 
+    height: auto;
+    padding-left: 50px;
+}
+
+
+.designer {
+    background-color: #FDB32F;
+    color: #000; 
+    font-size: 8px;
+    padding: 2px 5px; 
+    border: 2px solid #000;
+    position: relative;
+    top: 5px;
+    left: 255px;
+    font-weight: bold;
+    
+}
+
+
+.seta-amarela img, .seta-verde img {
+    width: 20px; 
+    height: auto; 
+}
+
+
+
+.texto-card1 h2 {
+    text-align: center;
+    color: #4CC8FF;
+    width: 50%; 
+    margin: 0 auto; 
+    font-size: 24px; 
+}
+
+.seta-amarela{
+    position: relative;
+    left: 300px;
+}
+
+.texto-card1 p {
+    text-align: center;
+    color: #ffffff;
+    width: 50%; 
+    margin: 0 auto; 
+    font-size: 10px; 
+    padding-top: 10px;
+}
+    
+
+.programador {
+    background-color: #19B100;
+    color: white; 
+    font-size: 8px;
+    font-weight: bold;
+    padding: 3px 5px; 
+    border: 2px solid #000;
+    position: relative;
+    left: 710px;
+    top: -20px; 
+}
+
+.seta-verde{
+    position: relative;
+    left: 695px;
+    top: -5px;
+}
