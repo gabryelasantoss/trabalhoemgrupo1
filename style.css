@@ -1,0 +1,50 @@
+body {
+    font-family: 'Sora', sans-serif;
+   
+}
+
+.botão{
+    text-align: center;
+}
+
+.botão button{
+    padding: 5px 10px; 
+    border-radius: 20px;
+    background: #0F315C;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.card{
+    width: 1000px;
+    height: 800px;
+}
+
+
+.card-1, .card-2 {
+    margin: 0;
+    padding: 10px;
+    background: blue;
+}
+
+
+section .tomadas{
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F315C;
+    margin-top: -30px;
+    
+    
+    background-image: url(img/vector.png), url(img/vector-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left, center right;
+    
+  }
+  
+  section hr{
+    margin-top: 23px;
+    border: 2px solid white;
+  }
+
