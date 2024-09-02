@@ -1,187 +1,219 @@
 body {
     font-family: 'Sora', sans-serif;
-   
 }
 
-.card{
+
+.card {
     width: 1000px;
     height: 800px;
 }
 
-
 .card-1, .card-2 {
     margin: 0;
-    padding: 10px; 
+    padding: 10px;
 }
 
-.card-1{
+
+.card-1 {
     background-color: #0F315C;
-   
 }
 
 .imagem-logo img {
-    width: 150px; 
+    width: 150px;
     height: auto;
     padding-left: 50px;
 }
 
 
-.designer {
-    background-color: #FDB32F;
-    color: #000; 
-    font-size: 8px;
-    padding: 2px 5px; 
-    border: 2px solid #000;
-    position: relative;
-    top: 5px;
-    left: 255px;
-    font-weight: bold;
-
-}
-
-
-.seta-amarela img, .seta-verde img {
-    width: 20px; 
-    height: auto; 
-}
-
-
-
 .texto-card1 h2 {
     text-align: center;
     color: #4CC8FF;
-    width: 50%; 
-    margin: 0 auto; 
-    font-size: 24px; 
-}
-
-.seta-amarela{
-    position: relative;
-    left: 300px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 24px;
 }
 
 .texto-card1 p {
     text-align: center;
     color: #ffffff;
-    width: 50%; 
-    margin: 0 auto; 
-    font-size: 10px; 
+    width: 50%;
+    margin: 0 auto;
+    font-size: 10px;
     padding-top: 10px;
 }
 
 
-.programador {
-    background-color: #19B100;
-    color: white; 
-    font-size: 8px;
-    font-weight: bold;
-    padding: 3px 5px; 
-    border: 2px solid #000;
-    position: relative;
-    left: 710px;
-    top: -20px; 
+.seta-amarela img, .seta-verde img {
+    width: 20px;
+    height: auto;
 }
 
-.seta-verde{
+.seta-amarela {
+    position: relative;
+    left: 300px;
+}
+
+.seta-verde {
     position: relative;
     left: 695px;
     top: -5px;
 }
+
+
+.designer {
+    background-color: #FDB32F;
+    color: #000;
+    font-size: 8px;
+    padding: 2px 5px;
+    border: 2px solid #000;
+    position: relative;
+    top: 5px;
+    left: 255px;
+    font-weight: bold;
+}
+
+.programador {
+    background-color: #19B100;
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 3px 5px;
+    border: 2px solid #000;
+    position: relative;
+    left: 710px;
+    top: -20px;
+}
+
 
 .card-2 {
     background: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
     border-style: solid;
     border-width: 1px 0px 0px 0px;
     border-color: #fdb32f;
+    height: 225px;
 }
 
 
 .rodapé {
-    color: #ffff;
     width: 300px;
     font-size: 15px;
     padding-left: 50px;
 }
 
-.amarelo { 
+.amarelo {
     color: #fdb32f;
-
 }
 
+
 .contatos {
-    display: flex;
-    border-bottom: 1px solid #ffffff; 
-    color: #ffffff;
-    padding: 60px 40px 60px 40px;
-    
+    position: relative;
+    left: 38px;
+    font-size: 12px;
 }
 
 .email, .endereco, .midias {
-    flex: 1;
-    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
 }
+
+.contatos .email {
+    margin-right: 2%;
+}
+
+.contatos .endereco {
+    margin-right: 2%;
+}
+
+.contatos .midias {
+    margin-right: 0;
+}
+
 
 .midias img {
     width: 30px;
-    height: auto; 
-    margin-right: 10px; 
+    height: auto;
+    margin-right: 10px;
 }
-
-
 
 .email p, .endereco p, .midias p, .midias img {
     margin: 5px;
 }
 
+
 .logo-pequena {
     text-align: center;
 }
 
-.logo-pequena img{
+.logo-pequena img {
     position: relative;
-    top: 9px;
+    top: 5px;
 }
 
-.midias img {
-    width: 20px; 
-    height: auto; 
-    margin-right: 10px; 
-}
-.fino {
-    font-family: 'Sora', sans-serif;
-    font-weight: 100; 
-}
 
-.botão{
+.botão {
     text-align: center;
+    padding-top: 30px;
 }
 
-.botão button{
-    padding: 5px 10px; 
+.botão button {
+    padding: 5px 10px;
     border-radius: 20px;
     background: #0F315C;
     color: #ffffff;
     border: 1px solid #ffffff;
 }
 
-.tomada1 , .tomada2{
-    display: flex;
-}
 
-section .tomadas{
-    height: 40px;
+section .tomadas {
     width: 150px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #0F315C;
     margin-top: -30px;
-    background-image: url(img/vector.png), url(img/vector-2.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: center left, center right;
+    padding-top: 1px;
+    background-color: #0F315C;
+    text-align: center;
+    position: relative;
+}
 
-  }
+.tomada1 {
+    position: relative;
+    right: 35px;
+}
 
-  section hr{
-    margin-top: 23px;
+.tomada2 {
+    position: relative;
+    left: 34px;
+    top: 2px;
+}
+
+section .tomadas > div {
+    display: inline-block;
+}
+
+section .tomadas img {
+    width: 40px;
+    height: auto;
+}
+
+
+section hr {
+    margin-top: 100px;
     border: 2px solid white;
-  }
+}
+
+.linha {
+    border: 0;
+    height: 2px;
+    background-color: #0574f0;
+}
+
+
+.fino {
+    font-family: 'Sora', sans-serif;
+    font-weight: 100;
+}
