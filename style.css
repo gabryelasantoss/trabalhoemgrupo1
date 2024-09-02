@@ -1,0 +1,37 @@
+body {
+    font-family: 'Sora', sans-serif;
+   
+}
+
+.card{
+    width: 1000px;
+    height: 800px;
+}
+
+
+.card-1, .card-2 {
+    margin: 0;
+    padding: 10px; 
+}
+
+.card-2 {
+    background-color: #0f315c;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #fdb32f;
+}
+
+.rodapé {
+    color: #ffff;
+    width: 300px;
+}
+
+.amarelo { 
+    color: #fdb32f;
+
+}
+
+.amarelo { 
+    color: #fdb32f;
+
+}
